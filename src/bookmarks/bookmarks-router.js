@@ -35,8 +35,6 @@ bookmarksRouter
               .send('Rating must be between 1 and 5');
           }
 
-  
-
           if (!description) {
             logger.error(`Description is required`);
             return res
