@@ -209,7 +209,7 @@ describe(`POST /api/bookmarks`, () => {
       })
     })
   })
-  describe.only(`PATCH /api/bookmarks:bookmark_id`, () => {
+  describe(`PATCH /api/bookmarks:bookmark_id`, () => {
     context(`Given no bookmarks`, () => {
       it(`responds with 404`, () => {
         const bookmarkId = 123456
